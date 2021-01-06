@@ -1,6 +1,6 @@
 import React from 'react';
-import AssetList from './components/AssetList';
 import './styles/App.css';
+import ImageToolbar from "./components/ImageToolbar";
 
 class App extends React.Component {
     private iframe!: HTMLIFrameElement;
@@ -23,10 +23,10 @@ class App extends React.Component {
         return (
             <div className="app">
                 <iframe id="editor"
-                    onMouseEnter={this.onMouseEnter}
-                    title="MakeCode Arcade sprite editor"
-                    src="https://arcade.makecode.com/beta--asseteditor" />
-                <AssetList postMessage={this.postMessage} />
+                        onMouseEnter={this.onMouseEnter}
+                        title="MakeCode Arcade sprite editor"
+                        src="https://arcade.makecode.com/beta--asseteditor"/>
+                <ImageToolbar postMessage={this.postMessage}/>
             </div>
         );
     }

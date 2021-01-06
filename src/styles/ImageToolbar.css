@@ -1,0 +1,41 @@
+.image-toolbar-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.4rem 0.4rem 0;
+    background-color: var(--sidebar-bg-color);
+}
+
+.image-button {
+    vertical-align: middle;
+    line-height: 5rem;
+    width: 5rem;
+    color: var(--sidebar-icon-inactive-color);
+    text-align: center;
+    cursor: pointer;
+}
+
+/* BROWSER STUFF */
+
+::-webkit-input-placeholder {
+    font-style: italic;
+ }
+ :-moz-placeholder {
+    font-style: italic;
+ }
+ ::-moz-placeholder {
+    font-style: italic;
+ }
+ :-ms-input-placeholder {
+    font-style: italic;
+ }
+
+::-webkit-scrollbar {
+    width: 0.5rem;
+    background-color: rgba(0,0,0,0);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--sidebar-icon-inactive-color);
+}

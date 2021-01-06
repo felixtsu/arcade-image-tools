@@ -1,4 +1,4 @@
-import { uint8ArrayToString, hexToUint8Array } from "./util";
+import {hexToUint8Array, uint8ArrayToString} from "./util";
 
 export interface JRESImage {
     data: string; // Base64 encoded string of f4 encoded bytes
@@ -87,7 +87,7 @@ export function imgEncodeJRESImage(image: JRESImage) {
 
 const hexChars = [".", "1", "2", "3", "4", "5", "6", "7", "8", "9", "a", "b", "c", "d", "e", "f"];
 
-function bitmapToImageLiteral(bitmap: Bitmap, fileType: "typescript" | "python"): string {
+export function bitmapToImageLiteral(bitmap: Bitmap, fileType: "typescript" | "python"): string {
     let res = '';
     switch (fileType) {
         case "python":
@@ -307,7 +307,7 @@ export class Bitmap {
 }
 
 
-function jresDataToBitmap(jresURL: string) {
+export function jresDataToBitmap(jresURL: string) {
     let data = atob(jresURL.slice(jresURL.indexOf(",") + 1))
     let magic = data.charCodeAt(0);
     let w = data.charCodeAt(1);
