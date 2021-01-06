@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bb0c85421cf9476ee23e027bd02e1352",
+    "revision": "6d3d0fad5d0e079d7d6ff9e76db7961b",
     "url": "/arcade-image-tools/index.html"
   },
   {
