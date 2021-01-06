@@ -115,20 +115,20 @@ class ImageToolbar extends React.Component<ImageToolbarProps, ImageToolbarState>
     }
 
     _transformImpl(transformer: (bitmap: Bitmap) => Bitmap) {
-        (async () => {
-            await this.getJres()
-        })()
+        this.getJres()
+        setTimeout(() => {
+            // 1. rotate this._item.data;
+            let bitmap = jresDataToBitmap(this._item.data)
 
-        // 1. rotate this._item.data;
-        let bitmap = jresDataToBitmap(this._item.data)
+            let result = transformer(bitmap)
+            const imageString = bitmapToImageLiteral(result, "typescript");
 
-        let result = transformer(bitmap)
-        const imageString = bitmapToImageLiteral(result, "typescript");
+            // 2. post initialize message to update editor
+            const jresImage = getJRESImageFromImageLiteral(imageString, arcadePalette);
+            this._item = jresImage
+            this.props.postMessage({type: "initialize", message: jresImage.data});
+        }, 50)
 
-        // 2. post initialize message to update editor
-        const jresImage = getJRESImageFromImageLiteral(imageString, arcadePalette);
-        this._item = jresImage
-        this.props.postMessage({type: "initialize", message: jresImage.data});
     }
 
     onClockwiseRotateButtonClick = () => {
