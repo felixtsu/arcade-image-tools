@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/arcade-image-tools/static/css/main.e1274c29.chunk.css",
+    "main.js": "/arcade-image-tools/static/js/main.ea6fce64.chunk.js",
+    "main.js.map": "/arcade-image-tools/static/js/main.ea6fce64.chunk.js.map",
+    "runtime-main.js": "/arcade-image-tools/static/js/runtime-main.3c2a621f.js",
+    "runtime-main.js.map": "/arcade-image-tools/static/js/runtime-main.3c2a621f.js.map",
+    "static/js/2.842fbca3.chunk.js": "/arcade-image-tools/static/js/2.842fbca3.chunk.js",
+    "static/js/2.842fbca3.chunk.js.map": "/arcade-image-tools/static/js/2.842fbca3.chunk.js.map",
+    "index.html": "/arcade-image-tools/index.html",
+    "precache-manifest.9f83486b32894e26ad892fd05da2286f.js": "/arcade-image-tools/precache-manifest.9f83486b32894e26ad892fd05da2286f.js",
+    "service-worker.js": "/arcade-image-tools/service-worker.js",
+    "static/css/main.e1274c29.chunk.css.map": "/arcade-image-tools/static/css/main.e1274c29.chunk.css.map",
+    "static/js/2.842fbca3.chunk.js.LICENSE.txt": "/arcade-image-tools/static/js/2.842fbca3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3c2a621f.js",
+    "static/js/2.842fbca3.chunk.js",
+    "static/css/main.e1274c29.chunk.css",
+    "static/js/main.ea6fce64.chunk.js"
+  ]
+}
