@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e66a7cf63a4ec732a715bcfd1f216d0f",
+    "revision": "d0205937aa552af2ef4be107b782c55a",
     "url": "/arcade-image-tools/index.html"
   },
   {
-    "revision": "877eb774dfd644550336",
+    "revision": "a0063694df60eafb952b",
     "url": "/arcade-image-tools/static/css/main.e1274c29.chunk.css"
   },
   {
-    "revision": "5e1ad61088d8da0fa9b4",
-    "url": "/arcade-image-tools/static/js/2.842fbca3.chunk.js"
+    "revision": "5d75d26ecfd4c6977f09",
+    "url": "/arcade-image-tools/static/js/2.6a5a796f.chunk.js"
   },
   {
     "revision": "570d362d673dab785e62d2b8563e1118",
-    "url": "/arcade-image-tools/static/js/2.842fbca3.chunk.js.LICENSE.txt"
+    "url": "/arcade-image-tools/static/js/2.6a5a796f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "877eb774dfd644550336",
-    "url": "/arcade-image-tools/static/js/main.ea6fce64.chunk.js"
+    "revision": "a0063694df60eafb952b",
+    "url": "/arcade-image-tools/static/js/main.1a232d5f.chunk.js"
   },
   {
     "revision": "090f6e126d9a00b031d1",
