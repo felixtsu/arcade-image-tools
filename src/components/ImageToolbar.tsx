@@ -192,7 +192,7 @@ class ImageToolbar extends React.Component<ImageToolbarProps, ImageToolbarState>
     }
 
     private verticalFlip(bitmap: Bitmap) {
-        let result = new Bitmap(bitmap.height, bitmap.width)
+        let result = new Bitmap(bitmap.width, bitmap.height)
         for (let h = 0; h < bitmap.height; h++) {
             for (let w = 0; w < bitmap.width; w++) {
                 result.set(w, bitmap.height - 1 - h, bitmap.get(w, h))
@@ -202,10 +202,10 @@ class ImageToolbar extends React.Component<ImageToolbarProps, ImageToolbarState>
     }
 
     private horizontalFlip(bitmap: Bitmap) {
-        let result = new Bitmap(bitmap.height, bitmap.width)
-        for (let w = 0; w < bitmap.width; w++) {
-            for (let h = 0; h < bitmap.height; h++) {
-                result.set(bitmap.height - 1 - h, w, bitmap.get(h, w))
+        let result = new Bitmap(bitmap.width, bitmap.height)
+        for (let h = 0; h < bitmap.height; h++) {
+            for (let w = 0; w < bitmap.width; w++) {
+                result.set(bitmap.width - 1 - w, h, bitmap.get(w, h))
             }
         }
         return result
