@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d0205937aa552af2ef4be107b782c55a",
+    "revision": "dc2bee2b08f3ed115bdc6ccf29dbbe11",
     "url": "/arcade-image-tools/index.html"
   },
   {
-    "revision": "a0063694df60eafb952b",
+    "revision": "80cf6307dc6156f65976",
     "url": "/arcade-image-tools/static/css/main.e1274c29.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/arcade-image-tools/static/js/2.6a5a796f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a0063694df60eafb952b",
-    "url": "/arcade-image-tools/static/js/main.1a232d5f.chunk.js"
+    "revision": "80cf6307dc6156f65976",
+    "url": "/arcade-image-tools/static/js/main.945a7903.chunk.js"
   },
   {
     "revision": "090f6e126d9a00b031d1",
